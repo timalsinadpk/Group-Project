@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+	height: 100vh;
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration:  none;
+	color: #ffffff;
+	padding: 5px 20px;
+	border: 1px solid #fff transparent;
+}
+ul li a:hover{
+	  background-color: #fff;
+	  color: #000000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	position: absolute;
+	top: 2%;
+	left: 10%;
+	width: 150px;
+	height: auto;
+	opacity: 50;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 20px;
+}
+
+.img{
+padding-top: 20%;
+padding-left: 20%;
+align-content: center;
+opacity: 90%;
+}
+footer{
+	top: 8%;
+	text-align: left;
+	background-color: #001f3f;
+	color: white;
+	padding: 20px;
+}

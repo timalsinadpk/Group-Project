@@ -1,0 +1,35 @@
+h1 {
+color: darkblue;
+}
+background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+<!--https://webgradients.com/-->
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration:  none;
+	color: red;
+	padding: 5px 20px;
+	border: 1px solid #fff transparent;
+}
+ul li a:hover{
+	  background-color: #fff;
+	  color: #000000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+footer{
+	top: 8%;
+	text-align: left;
+	background-color: #001f3f;
+	color: white;
+	padding: 20px;
+}
